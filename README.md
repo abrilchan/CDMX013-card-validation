@@ -30,6 +30,12 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 Este proyecto está dirigido a usuarias pertenecientes a una población de fans. La página simula el entorno de un servicio con base en membresías. En este, las usuarias adquieren dicha membresía para acceder a contenido digital exclusivo. La interfaz para validar tarjeta está pensada para implementarse durante el proceso de validar el pago de la membresía.
 
+El prototipo pensado para la interfaz fue el siguiente:
+
+![Pantalla principal](Desktop1.png)
+![Tarjeta valida](Desktop2.png)
+![Tarjeta no valida](Desktop3.png)
+
 ## 3. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
