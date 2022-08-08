@@ -15,13 +15,13 @@ const validator = {
       });
     }
 
-  let newRevCardNum = multiplyNum(revCardNum);
+  let doubleRevCardNum = multiplyNum(revCardNum);
 
-  let beforeSumCardNum = newRevCardNum.join('');
+  let allDigToSumCardNum = doubleRevCardNum.join('');
   let toSum = [];
 
-  for (var j=0; j<beforeSumCardNum.length; j++){
-    toSum.push(parseInt(beforeSumCardNum.split('')[j]));
+  for (var j=0; j<allDigToSumCardNum.length; j++){
+    toSum.push(parseInt(allDigToSumCardNum.split('')[j]));
 }
 
   for (let i = 0; i < toSum.length; i++) {
