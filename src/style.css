@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+
+
+body{background-color: #1d3752;
+}
+
+
+header{background: #2C7695;
+    min-height: 50px;
+    width: 100%;
+    color:#ffffff;
+    position: relative;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+
+}
+
+nav #logo{
+    width: 200px;
+    margin-right: 600px;
+    cursor: pointer;
+}
+
+nav .ul{
+    flex: 1;
+    text-align: right;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    text-align: right;
+}
+
+nav ul a{
+    text-decoration: none ;
+    color: #ffffff;
+    text-align: right;
+    font-size: 16px;
+}
+
+.container{
+    min-height: 100hv;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 60px;
+}
+
+.container #form-cont {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px;
+    padding: 20px;
+    width: 600px;
+}
+
+.container #form-cont .inputBox{
+    margin-top: 20px;
+}
+
+.container #form-cont  .inputBox h1{
+    display: block;
+    color: #2C7695;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.container #form-cont  .inputBox span{
+    display: block;
+    color: #1d3752;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.container #form-cont  .inputBox input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: #1d3752;
+}
+
+.container #form-cont  .flexbox{
+    display: flex;
+    gap:25px;
+    font-size: 12px;
+}
+
+.container #form-cont .flexbox .inputBox{
+    flex: 2 2 50px;
+}
+
+.container #form-cont .submit-button{
+    width: 100%;
+    background: #2C7695;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+footer{background: #4c6589;
+    min-height: 10px;
+    width: 100%;
+    color:#ffffff;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+
+}
+
+.message{
+    min-height: 100hv;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 50px;
+    color: #ffffff;
+    font-size: 24px;
+}

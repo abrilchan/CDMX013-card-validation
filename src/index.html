@@ -1,14 +1,74 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Validar tarjeta de crédito</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+
+    <header>
+      <nav >
+        <img src="logo.png" id="logo">
+        <ul>
+          <li><a href="">Inicio</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="container">
+      <!--
+        <form action="" id="form-cont">
+      -->
+
+      <div  id="form-cont">
+        <div class="inputBox">
+          <h1>PAGO CON TARJETA</h1>
+          <br>
+          <!--
+          <span>Nombre impreso en la tarjeta</span>
+          <input type="text" class="cardName" placeholder="Nombre Apellido">
+          <br>
+          -->
+          <span>Número de tarjeta</span>
+          <input type="text" maxlength="16" id="cardNumb" placeholder="0000000000000000" >
+
+          <br>
+           <!--
+          <span> <br> </span>
+
+          <div class="flexbox">
+  
+          <span>Fecha de vencimiento</span>
+          <input type="text" maxlength="4" class="cardExp" placeholder="MM/AA">
+
+          <br>
+          
+          <span>Código de seguridad</span>
+          <input type="text" maxlength="3" class="cardCVV" placeholder="CVV">
+          </div>
+        <br>
+        </div>
+      -->
+        </div>
+        <button class="submit-button" >  Validar tarjeta </button>
+      </div>
+        <!--
+       </form>
+     -->
+    </div>
+
+    <div class="message">
+
+    </div>
+    
+    <footer>
+    Abril 2022
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
